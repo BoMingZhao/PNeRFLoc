@@ -34,30 +34,30 @@ The layout should looks like this:
 PNeRFLoc
 ├── data_src
 │   ├── Replica
-	│   │──room0
-	│   │   │──exported
-	│   │   │   │──color
-    │   │   │   │──depth
-    │   │   │   │──depth_render
-    │   │   │   │──pose
-    │   │   │   │──intrinsic
-    │   │   │   │──r2d2_query
-	│   │──room1
+│   │   │──room0
+│   │   │   │──exported
+│   │   │   │   │──color
+│   │   │   │   │──depth
+│   │   │   │   │──depth_render
+│   │   │   │   │──pose
+│   │   │   │   │──intrinsic
+│   │   │   │   │──r2d2_query
+│   │   │──room1
     ...
-    ├── 7Scenes
-    │   │──chess
-	│   │   │──exported
-	│   │   │   │──color
-    │   │   │   │──depth
-    │   │   │   │──depth_render
-    │   │   │   │──pose
-    │   │   │   │──intrinsic
-    │   │   │   │──TrainSplit.txt
-    │   │   │   │──TestSplit.txt
-    │   │   │   │──r2d2_query
-	│   │──pumpkin
+│   ├── 7Scenes
+│   │   │──chess
+│   │   │   │──exported
+│   │   │   │   │──color
+│   │   │   │   │──depth
+│   │   │   │   │──depth_render
+│   │   │   │   │──pose
+│   │   │   │   │──intrinsic
+│   │   │   │   │──TrainSplit.txt
+│   │   │   │   │──TestSplit.txt
+│   │   │   │   │──r2d2_query
+│   │   │──pumpkin
 	...
-	│   │──7scenes_sfm_triangulated
+│   │   │──7scenes_sfm_triangulated
 ```
 
 ## Train
