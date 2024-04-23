@@ -1,5 +1,7 @@
 # PNeRFLoc [AAAI 24]
 
+### [Project Page](https://zju3dv.github.io/PNeRFLoc/) | [arXiv](https://arxiv.org/abs/2312.10649)
+
 This is the official pytorch implementation of **PNeRFLoc: Visual Localization with Point-based Neural Radiance Fields**.
 
 ## Update
